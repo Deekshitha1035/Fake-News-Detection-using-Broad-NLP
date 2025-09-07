@@ -21,6 +21,20 @@ The project includes data preprocessing, model training, and prediction scripts.
 
 ## 🔹 Project Structure
 
+fake-news-detection/
+│── fake-news-bert/
+│ ├── app.py
+│ ├── bert_train.py
+│ ├── train_model.py
+│ ├── save_model.py
+│ ├── merge_datasets.py
+│ ├── bert_fake_news_model/
+│ ├── config.json
+│ ├── tokenizer_config.json
+│ ├── vocab.txt
+│── README.md
+│── .gitignore
+
 
 ---
 
