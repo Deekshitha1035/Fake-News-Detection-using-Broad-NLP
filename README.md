@@ -69,8 +69,8 @@ Download and place them in `fake-news-bert/`:
 ## 🔹 Screenshots
 
 ### Web/App Interface
-![App Screenshot](<img width="918" height="558" alt="f1" src="https://github.com/user-attachments/assets/9724ed3a-5c4a-49b9-a9c9-370089642eb7" />
-)
+![App Screenshot](<img width="918" height="558" alt="f1" src="https://github.com/user-attachments/assets/eedfa2de-57f9-47a6-9b44-b34ba4bcff6c" />)
+
 
 ### Sample Prediction
 ![Prediction Screenshot](<img width="925" height="557" alt="f3" src="https://github.com/user-attachments/assets/e5a6c24e-c5f3-45c3-907a-0681fa530f1e" />
