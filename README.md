@@ -20,20 +20,28 @@ The project includes data preprocessing, model training, and prediction scripts.
 ---
 
 ## 🔹 Project Structure
-
 fake-news-detection/
-│── fake-news-bert/
-│ ├── app.py
-│ ├── bert_train.py
-│ ├── train_model.py
-│ ├── save_model.py
-│ ├── merge_datasets.py
-│ ├── bert_fake_news_model/
-│ ├── config.json
-│ ├── tokenizer_config.json
-│ ├── vocab.txt
-│── README.md
-│── .gitignore
+│
+├── fake-news-bert/                # Main module for BERT-based detection
+│   ├── app.py                     # Optional: Flask/Streamlit app for predictions
+│   ├── bert_train.py              # Script to train BERT model
+│   ├── train_model.py             # Alternative training script (if any)
+│   ├── save_model.py              # Save trained model and tokenizer
+│   ├── merge_datasets.py          # Preprocess and combine datasets
+│   ├── bert_fake_news_model/      # Folder for saved BERT model files
+│       ├── config.json
+│       ├── tokenizer_config.json
+│       ├── vocab.txt
+│
+├── datasets/                      # (Optional) placeholder for datasets
+│   ├── Fake.csv
+│   ├── True.csv
+│
+├── predict_bert.py                # Script to make predictions on new data
+├── requirements.txt               # Python dependencies
+├── README.md                      # Project documentation
+└── .gitignore                     # Ignore large files and unnecessary files
+
 
 
 ---
