@@ -21,3 +21,27 @@ The project includes data preprocessing, model training, and prediction scripts.
 
 ## 🔹 Project Structure
 
+
+---
+
+## 🔹 Datasets & Models
+**Not included** in the repo due to size.  
+
+Download and place them in `fake-news-bert/`:
+
+| File | Description |
+|------|------------|
+| `Fake.csv` / `True.csv` | Original news datasets |
+| `model.safetensors` | Trained BERT model |
+| `vectorizer.pkl` | Saved vectorizer |
+
+> Example link: [Google Drive / Hugging Face](#)
+
+---
+
+## 🔹 Installation
+
+1. Clone the repo:
+```bash
+git clone https://github.com/Deekshitha1035/Fake-News-Detection-using-Broad-NLP.git
+cd Fake-News-Detection-using-Broad-NLP
