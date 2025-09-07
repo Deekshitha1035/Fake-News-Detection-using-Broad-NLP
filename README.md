@@ -56,6 +56,28 @@ Download and place them in `fake-news-bert/`:
 
 ---
 
+## 🔹 Tech Stack
+
+- **Language:** Python 3.8+
+- **Deep Learning & NLP:** BERT, Hugging Face Transformers, PyTorch
+- **Data Processing & Analysis:** Pandas, NumPy, scikit-learn, NLTK
+- **Web/App (Optional):** Flask or Streamlit
+- **Model Storage:** `safetensors`, Pickle (`.pkl`)
+- **Version Control:** Git & GitHub
+
+
+## 🔹 Screenshots
+
+### Web/App Interface
+![App Screenshot](screenshots/app_interface.png)
+
+### Sample Prediction
+![Prediction Screenshot](screenshots/prediction.png)
+
+### Training Logs (Optional)
+![Training Screenshot](screenshots/training.png)
+
+
 ## 🔹 Installation
 
 1. Clone the repo:
