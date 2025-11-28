@@ -90,7 +90,7 @@ elif mode == "🖼 Image":
             pil_img = preprocess_pil(img)
             extracted_text = pytesseract.image_to_string(pil_img)
 
-            # 🔍 Display raw OCR output
+            #  Display raw OCR output
             st.code(extracted_text, language='text')
             st.text_area("Extracted Text", value=extracted_text, height=150)
 
