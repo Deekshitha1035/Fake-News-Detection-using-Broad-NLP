@@ -5,8 +5,6 @@ from transformers import BertTokenizer, BertForSequenceClassification
 from torch.optim import AdamW
 from sklearn.model_selection import train_test_split
 
-
-
 # Load dataset
 df = pd.read_csv('fake_news_dataset.csv')  # Columns: ['text', 'label']
 df['label'] = df['label'].map({'REAL': 0, 'FAKE': 1})
