@@ -19,11 +19,14 @@ y = df['label']
 model = LogisticRegression()
 model.fit(X, y)
 
-# Save trained vectorizer and model
+
+# Save trained vectorizer and model.
 with open('vectorizer.pkl', 'wb') as f:
     pickle.dump(vectorizer, f)
 
 with open('model.pkl', 'wb') as f:
     pickle.dump(model, f)
+
+
 
 print("✅ Model and vectorizer saved successfully.")
